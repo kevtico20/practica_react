@@ -1,11 +1,12 @@
-import HereSection from "./components/HereSection"
+import HereSection from "./components/HereSection";
+import Code_challenges from "./components/Code_challenges";
 function App() {
-
   return (
     <>
-     <HereSection></HereSection>
+      <Code_challenges></Code_challenges>
+      <HereSection></HereSection>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
